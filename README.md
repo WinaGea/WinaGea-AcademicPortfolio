@@ -1,81 +1,273 @@
-<div align="center">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wina Gea | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #1a1a1a;
+      --purple1: #8d5cf6;
+      --purple2: #a36ff7;
+      --white: #ffffff;
+      --text: rgba(255,255,255,.75);
+      --card: rgba(255, 255, 255, 0.06);
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins", sans-serif;
+    }
+    body {
+      background: radial-gradient(circle at top, #a36ff7 0%, #6d34b6 45%, #1b122b 100%);
+      min-height: 100vh;
+      color: var(--white);
+    }
+    /* NAVBAR */
+    .navbar {
+      width: 100%;
+      padding: 18px 7%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 50;
+      background: rgba(6, 6, 6, 0.6);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+    }
+    .logo {
+      font-size: 1.1rem;
+      font-weight: 600;
+      letter-spacing: 2px;
+    }
+    .nav-links {
+      display: flex;
+      gap: 28px;
+    }
+    .nav-links a {
+      color: #fff;
+      font-size: .9rem;
+      text-decoration: none;
+      transition: .2s;
+    }
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: #ffe9ff;
+    }
 
-# ✨ Wina Sorta Maria Gea  
-🎓 *Computer Technology Student — Institut Teknologi Del*  
-💻 *IoT • Cloud Computing • Interface Design • Database Development*  
+    /* HERO */
+    .hero {
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 30px;
+      padding: 140px 7% 60px;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .hero-left small {
+      background: rgba(255,255,255,0.09);
+      padding: 7px 18px;
+      border-radius: 999px;
+      font-size: .7rem;
+      display: inline-flex;
+      gap: 6px;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+    .hero-left h1 {
+      font-size: clamp(2.6rem, 4vw, 3.4rem);
+      font-weight: 700;
+      line-height: 1.1;
+      margin-bottom: 12px;
+    }
+    .hero-left h1 span {
+      display: block;
+    }
+    .hero-left .role {
+      font-size: 1rem;
+      color: rgba(255,255,255,.75);
+      margin-bottom: 18px;
+    }
+    .hero-left p {
+      max-width: 520px;
+      font-size: .9rem;
+      line-height: 1.5;
+      color: rgba(255,255,255,.85);
+    }
+    .hero-buttons {
+      margin-top: 28px;
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .btn-primary {
+      background: #fff;
+      color: #2c1e42;
+      border: none;
+      padding: 12px 26px;
+      border-radius: 999px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: .2s;
+    }
+    .btn-primary:hover {
+      transform: translateY(-2px);
+    }
+    .btn-secondary {
+      background: transparent;
+      border: 1px solid rgba(255,255,255,.5);
+      color: #fff;
+      padding: 12px 26px;
+      border-radius: 999px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: .2s;
+    }
+    .btn-secondary:hover {
+      background: rgba(255,255,255,.1);
+    }
+    /* SOCIAL */
+    .social-row {
+      display: flex;
+      gap: 14px;
+      margin-top: 30px;
+      align-items: center;
+    }
+    .social-row a {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 1px solid rgba(255,255,255,.35);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      color: #fff;
+      font-size: .85rem;
+      transition: .2s;
+    }
+    .social-row a:hover {
+      background: rgba(255,255,255,.15);
+    }
 
-</div>
+    /* HERO RIGHT */
+    .hero-right {
+      display: flex;
+      justify-content: center;
+    }
+    .profile-wrapper {
+      background: radial-gradient(circle, rgba(255,255,255,.06), rgba(255,255,255,0));
+      border-radius: 48% 52% 46% 54%;
+      width: clamp(300px, 30vw, 400px);
+      aspect-ratio: 1/1;
+      display: grid;
+      place-items: center;
+      position: relative;
+      box-shadow: 0 20px 60px rgba(0,0,0,.25);
+    }
+    .profile-wrapper::after {
+      content: "";
+      position: absolute;
+      inset: -35px;
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: inherit;
+      z-index: 0;
+    }
+    .profile-img {
+      width: 68%;
+      aspect-ratio: 1/1;
+      border-radius: 50%;
+      background: url("https://images.unsplash.com/photo-1525130413817-d45c1d127c42?q=80&w=600&auto=format&fit=crop") center/cover no-repeat;
+      border: 5px solid rgba(255,255,255,.75);
+      z-index: 2;
+      box-shadow: 0 20px 40px rgba(0,0,0,.25);
+    }
 
----
+    /* RESPONSIVE */
+    @media (max-width: 980px) {
+      .hero {
+        grid-template-columns: 1fr;
+        text-align: left;
+      }
+      .hero-right {
+        justify-content: flex-start;
+      }
+      .profile-wrapper {
+        margin-top: 20px;
+      }
+      .nav-links {
+        gap: 16px;
+      }
+    }
+    @media (max-width: 640px) {
+      .navbar {
+        padding: 16px 5%;
+      }
+      .hero {
+        padding-inline: 5%;
+      }
+      .hero-left h1 {
+        font-size: 2.45rem;
+      }
+      .hero-buttons {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .social-row {
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
 
-## 🪄 About Me  
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">WG</div>
+    <nav class="nav-links">
+      <a href="#home" class="active">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-Hi! I’m **Wina**, a passionate Computer Technology student who loves designing and building smart systems — blending **hardware**, **software**, and **aesthetic design** into one functional experience.  
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-left">
+      <small>👋 Welcome to my portfolio</small>
+      <h1>I'm <span>Wina Gea</span></h1>
+      <div class="role">Computer Technology Student &amp; IoT Enthusiast</div>
+      <p>
+        I enjoy building IoT prototypes, designing clean user interfaces, and working with
+        database-driven applications. Here are some of the projects I’ve built during my study.
+      </p>
+      <div class="hero-buttons">
+        <button class="btn-primary">Let’s Connect</button>
+        <button class="btn-secondary" onclick="window.location='#projects'">View Projects</button>
+      </div>
+      <div class="social-row">
+        <a href="mailto:winagea22@gmail.com">✉</a>
+        <a href="https://wa.me/628xxxxxxxxxx" target="_blank">WA</a>
+        <a href="https://linkedin.com/in/winagea" target="_blank">in</a>
+        <a href="https://github.com/winagea" target="_blank">🐱</a>
+      </div>
+    </div>
 
-I’m currently seeking internship opportunities related to **IoT, Cloud, Embedded Systems, or Software Development.**  
-My goal is to create systems that are not only functional but also meaningful for their users 🌱  
+    <div class="hero-right">
+      <div class="profile-wrapper">
+        <!-- ganti URL foto di .profile-img di CSS ya -->
+        <div class="profile-img"></div>
+      </div>
+    </div>
+  </section>
 
----
-
-## ⚙️ Tech Stack  
-
-| Domain | Tools & Technologies |
-|:--------|:----------------------|
-| **IoT & Embedded Systems** | ESP32 · DHT22 · GP2Y1010AU0F · SGP30 · Blynk IoT · Arduino IDE |
-| **Software & Database** | C · Python · SQL · MySQL · XAMPP |
-| **UI/UX & 3D Design** | SolidWorks · AutoCAD · Figma · WordPress |
-| **Cloud & Dev Tools** | Git · GitHub · VS Code · Google Cloud |
-
----
-
-## 🌌 Featured Projects  
-
-<div align="center">
-
-| 🚀 Project | 🧩 Description | 🛠️ Tools |
-|-------------|----------------|-----------|
-| 💨 [**IoT-Based Air Quality Monitoring System**](https://github.com/winagea/IoT-Based-Air-Quality-Monitoring-System) | A smart IoT device to monitor indoor air quality (CO₂, humidity, PM2.5, temperature) using ESP32 & Blynk. | ESP32 · DHT22 · SGP30 · Blynk IoT |
-| 🧱 [**Interface Design: Air Quality Device Casing**](https://github.com/winagea/Project-Interface-Design-AirQuality) | SolidWorks-based 3D model for IoT device casing — designed for usability, protection, and easy maintenance. | SolidWorks · 3D Printing (PLA+) |
-| 🗃️ [**MySQL Database Project**](https://github.com/winagea/mysql-Database-Project) | Designed relational database with 3NF normalization and secure schema structure. | MySQL · SQL |
-| 🤖 [**Automatic Hand Dryer System**](https://github.com/winagea/Automatic-Hand-Dryer) | Automatic fan activation system using motion sensor for hygiene and efficiency. | C · Embedded System |
-| 🌐 [**Website of Medan City (WordPress)**](https://github.com/winagea/website-medan-city-psw) | Informative website about Medan City’s culture, geography, and culinary diversity. | WordPress · PHP · CSS |
-| 🎮 [**Genshin Impact Character API**](https://github.com/winagea/Genshin-Impact-Character-API) | REST API web app that displays dynamic character data from Genshin Impact. | HTML · JavaScript · REST API |
-
-</div>
-
----
-
-## 📊 GitHub Analytics  
-
-<div align="center">
-
-![Wina's GitHub Stats](https://github-readme-stats.vercel.app/api?username=winagea&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=9baec8)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=winagea&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=9baec8)
-
-</div>
-
----
-
-## 🧠 Personal Highlights  
-
-✨ Built multiple IoT systems integrating real-time sensors with mobile dashboards  
-🔩 Designed 3D casing prototypes using SolidWorks and 3D printing technology  
-🗂️ Experienced with database design, normalization, and data security  
-🎨 Enjoys blending technology with design — making systems that are smart *and beautiful*  
-
----
-
-## 🪶 Connect with Me  
-
-📧 **Email:** [winagea22@gmail.com](mailto:winagea22@gmail.com)  
-💼 **LinkedIn:** [linkedin.com/in/winagea](https://linkedin.com/in/winagea)  
-💻 **GitHub:** [github.com/winagea](https://github.com/winagea)  
-
----
-
-<div align="center">
-
-> *“Technology should feel like art — structured, functional, but emotionally inspiring.”*  
-> — **Wina Sorta Maria Gea** 🌙  
-
-</div>
+</body>
+</html>
