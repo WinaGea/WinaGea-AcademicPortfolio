@@ -1,11 +1,10 @@
-# Wina Sorta Maria Gea
+# 👋 Hi, I'm Wina Sorta Maria Gea
 
-🎓 Mahasiswi Teknologi Komputer – Institut Teknologi Del  
-💡 Fokus di IoT, Database, dan Desain Antarmuka
+🎓 Computer Technology Student | Institut Teknologi Del  
+💡 IoT • Database • Interface Design • Cloud
 
-## 🌟 Project Showcase
-| IoT Air Quality System | SolidWorks Design | WordPress Website |
-|------------------------|------------------|-------------------|
-| ![](images/iot.jpg) | ![](images/solidworks.jpg) | ![](images/web.jpg) |
+## ⚡ Featured Projects
+💨 [IoT Air Quality System](#)  
+🧱 [SolidWorks 3D Design](#)  
+🌐 [WordPress Website](#)
 
-✨ [Lihat Selengkapnya](#)
