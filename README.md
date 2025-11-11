@@ -1,20 +1,42 @@
-<div align="center">
+<div align="center" style="margin-bottom: 10px;">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=7F3FBF&height=180&section=header&text=Wina%20Sorta%20Maria%20Gea&fontSize=32&fontColor=ffffff&animation=fadeIn" width="100%" />
+  <!-- wave bisa dipertahankan tapi dibuat lebih tipis -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=7F3FBF&height=120&section=header&text=Wina%20Sorta%20Maria%20Gea&fontSize=30&fontColor=ffffff&fontAlign=50&fontAlignY=35" width="100%" />
 
-🎓 **Computer Technology Student — Institut Teknologi Del**  
+  <p style="margin-top: -10px;">
+    🎓 <strong>Computer Technology Student</strong> — Institut Teknologi Del  
+    💻 IoT • Interface / Product Design • Database • Web
+  </p>
 
-<div align="center">
-
-[![GitHub followers](https://img.shields.io/github/followers/winagea?label=Follow%20Me&style=social)](https://github.com/winagea)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-WinaGea-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wina-sorta-maria-gea-655523307/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-winagea.github.io-7F3FBF?logo=githubpages&logoColor=white)](https://winagea.github.io)
-[![Email](https://img.shields.io/badge/Email-winagea22@gmail.com-red?logo=gmail&logoColor=white)](mailto:winagea22@gmail.com)
+  <!-- badge bar -->
+  <p>
+    <a href="https://github.com/winagea">
+      <img src="https://img.shields.io/github/followers/winagea?label=Follow&style=social" />
+    </a>
+    <a href="https://www.linkedin.com/in/wina-sorta-maria-gea-655523307/">
+      <img src="https://img.shields.io/badge/LinkedIn-Wina%20Gea-0A66C2?logo=linkedin&logoColor=white" />
+    </a>
+    <a href="https://winagea.github.io">
+      <img src="https://img.shields.io/badge/Portfolio-winagea.github.io-7F3FBF?logo=githubpages&logoColor=white" />
+    </a>
+    <a href="mailto:winagea22@gmail.com">
+      <img src="https://img.shields.io/badge/Email-winagea22%40gmail.com-EA4335?logo=gmail&logoColor=white" />
+    </a>
+  </p>
 
 </div>
 
+---
 
+<!-- intro kecil biar lebih profesional -->
+<div align="center">
+  <em>
+    I build academic & IoT-based projects that connect hardware, software, and user-friendly design.  
+    This repository groups my main projects for internship and academic review.
+  </em>
 </div>
+
+<br/>
 
 ---
 
