@@ -62,22 +62,17 @@ Berikut beberapa pelatihan dan sertifikasi yang saya ikuti selama studi dan peng
 | 🌐 **Huawei HCIA — Datacom V1.0 Course** | 2025 | Huawei |
 | 🔒 **Huawei HCIA — Security V4.0 Course** | 2025 | Huawei |
 | 💾 **Huawei HCIA — Storage V5.0 Course** | 2025 | Huawei |
-| 🤖 **Introduction to IoT** | 2025 | Cisco Networking Academy |
-| ⚙️ **Introduction to DevOps Tools** | 2025 | Cisco Networking Academy |
+| 🤖 **Introduction to IoT — Cisco Networking Academy** | 2025 | Cisco |
+| ⚙️ **Introduction to DevOps Tools — Simplilearn** | 2025 | Simplilearn |
+| 🧩 **Ethical Hacker Update 2025 — Cisco Networking Academy** | 2025 | Cisco |
+| 🧠 **Back-End Development — MySkill** | 2025 | MySkill |
+| 💻 **Front-End Development — MySkill** | 2025 | MySkill |
+| 🌍 **Internet Introduction — MySkill** | 2025 | MySkill |
+| 🔌 **API Introduction — MySkill** | 2025 | MySkill |
 | ☁️ **Google Cloud Career Practitioner — Cloud Computing Fundamentals** | 2024 | Google |
-| 🧠 **Huawei ICT Competition — Cloud Track** | 2025 | Huawei |
 | 🧩 **Cisco Networking Essentials — Basic Networking** | 2024 | Cisco |
 | 🧱 **SolidWorks Design Workshop — Product Interface Design** | 2025 | IT Del Workshop |
 | 🔧 **IoT & Embedded System Workshop — ESP32 & MQTT Basics** | 2025 | IT Del Workshop |
-| 🕵️‍♀️ **Ethical Hacker Update — Cybersecurity Workshop** | 2025 | Independent Workshop |
-
-<p align="center">
-  
-![Huawei Badge](https://img.shields.io/badge/Huawei-Academy-red?logo=huawei&logoColor=white)
-![Cisco Badge](https://img.shields.io/badge/Cisco-Networking%20Academy-1BA0D7?logo=cisco&logoColor=white)
-![Google Cloud Badge](https://img.shields.io/badge/Google%20Cloud-Certified-4285F4?logo=googlecloud&logoColor=white)
-![SolidWorks Badge](https://img.shields.io/badge/SolidWorks-Workshop-orange?logo=dassaultsystemes&logoColor=white)
-![IoT Badge](https://img.shields.io/badge/IoT-Embedded%20Systems-4CAF50?logo=arduino&logoColor=white)
 
 </p>
 
