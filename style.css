@@ -35,34 +35,19 @@ body {
   line-height: 1.5;
 }
 
-.page {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 16px 18px 40px;
-}
+.page { max-width: 1280px; margin: 0 auto; padding: 16px 18px 40px; }
 
-.topbar {
-  display: flex;
-  justify-content: flex-start;
-  margin-bottom: 12px;
-}
+.topbar { display: flex; justify-content: flex-start; margin-bottom: 12px; }
 
 .theme-box {
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: 12px;
   padding: 8px 10px;
-  display: flex;
-  gap: 8px;
-  align-items: center;
+  display: flex; gap: 8px; align-items: center;
   font-size: .9rem;
 }
-
-.theme-box select {
-  border: none;
-  background: transparent;
-  color: var(--text);
-}
+.theme-box select { border: none; background: transparent; color: var(--text); }
 
 /* ========== LAYOUT ========== */
 .layout {
@@ -77,156 +62,110 @@ body {
   border-radius: var(--radius-lg);
   padding: 14px;
 }
-
-.card.wide {
-  width: 100%;
-}
+.card.wide { width: 100%; }
 
 /* ========== PROFILE ========== */
 .profile { text-align: center; }
 
 .avatar {
-  width: 110px;
-  height: 110px;
-  border-radius: 999px;
-  overflow: hidden;
-  margin: 6px auto 10px;
-  border: 3px solid #fff;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
+  width: 110px; height: 110px; border-radius: 999px; overflow: hidden;
+  margin: 6px auto 10px; border: 3px solid #fff;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
 }
+.avatar img { width: 100%; height: 100%; object-fit: cover; }
 
-.avatar img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.name {
-  font-size: 1.35rem;
-  font-weight: 700;
-  margin: 4px 0;
-}
-
-.role {
-  font-size: .9rem;
-  color: var(--muted);
-}
-
-.subs {
-  font-size: .85rem;
-  color: var(--muted);
-  margin-top: 4px;
-}
+.name { font-size: 1.35rem; font-weight: 700; margin: 4px 0; }
+.role { font-size: .9rem; color: var(--muted); }
+.subs { font-size: .85rem; color: var(--muted); margin-top: 4px; }
 
 /* ========== BUTTONS & CHIPS ========== */
 .chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  justify-content: center;
-  margin: 10px 0;
+  display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin: 10px 0;
 }
-
 .chip {
-  font-size: .78rem;
-  background: var(--chip);
-  color: var(--text);
-  padding: 6px 10px;
-  border-radius: 999px;
-  border: 1px solid var(--border);
+  font-size: .78rem; background: var(--chip); color: var(--text);
+  padding: 6px 10px; border-radius: 999px; border: 1px solid var(--border);
   text-decoration: none;
 }
-
 /* 🌙 DARK MODE chip fix biar tulisan terlihat */
 :root[data-theme="dark"] .chip {
-  background: #1f2a44;
-  color: #f3f4f6;
-  border: 1px solid #334155;
+  background: #1f2a44; color: #f3f4f6; border: 1px solid #334155;
 }
-
-/* Efek hover chip */
+/* Hover chip */
 .chip:hover {
-  background: var(--brand);
-  color: #ffffff;
-  cursor: default;
-  transition: background 0.2s ease, color 0.2s ease;
+  background: var(--brand); color: #fff; cursor: default;
+  transition: background .2s ease, color .2s ease;
 }
 
 .btn {
-  display: inline-block;
-  margin-top: 8px;
-  background: var(--text);
-  color: #fff;
-  text-decoration: none;
-  padding: 8px 14px;
-  border-radius: 999px;
-  font-size: .85rem;
+  display: inline-block; margin-top: 8px; background: var(--text); color: #fff;
+  text-decoration: none; padding: 8px 14px; border-radius: 999px; font-size: .85rem;
 }
 
 /* ========== TEXTS ========== */
 .section-title {
-  font-size: 1rem;
-  font-weight: 800;
-  color: var(--text);
-  text-transform: none;
-  margin-bottom: 10px;
+  font-size: 1rem; font-weight: 800; color: var(--text);
+  text-transform: none; margin-bottom: 10px;
 }
-
-/* Isi Tech Stack lebih menonjol */
-.stack b {
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--text);
-  letter-spacing: 0.3px;
-}
-
-/* Khusus mode dark: teks Tech Stack lebih terang dan sedikit glow */
-:root[data-theme="dark"] .stack b {
-  color: #f9fafb; /* hampir putih */
-  text-shadow: 0 0 6px rgba(255, 255, 255, 0.08);
-}
-
 
 /* ========== INFO LIST ========== */
 .info .list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  list-style: none; margin: 0; padding: 0;
+  display: flex; flex-direction: column; gap: 10px;
 }
+.info .list li { display: flex; justify-content: space-between; gap: 10px; }
+.info .list span { color: var(--muted); font-size: .9rem; }
+.info .list a, .info .list b { font-size: .9rem; color: var(--text); text-decoration: none; }
 
-.info .list li {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-}
-
-.info .list span {
-  color: var(--muted);
-  font-size: .9rem;
-}
-
-.info .list a,
-.info .list b {
-  font-size: .9rem;
-  color: var(--text);
-  text-decoration: none;
-}
-
-/* ✨ Link interaktif di info card (LinkedIn, GitHub, Email) */
+/* ✨ Link interaktif di info card */
 .card.info a {
+  color: var(--text); text-decoration: none; font-weight: 500;
+  transition: color .2s ease, text-decoration .2s ease;
+}
+.card.info a:hover { text-decoration: underline; color: var(--brand); }
+
+/* ========== TECH STACK (CARD STYLE) ========== */
+.stack-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+.stack {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 10px;
+  text-align: center;
+  font-weight: 700;              /* tebal biar jelas */
   color: var(--text);
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.2s ease, text-decoration 0.2s ease;
+  font-size: .95rem;             /* sedikit lebih besar */
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  transition: transform .2s ease, box-shadow .2s ease, background .2s ease, color .2s ease, border-color .2s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,.05);
+}
+.stack i { font-size: 1rem; opacity: .9; }
+
+/* Hover interaktif */
+.stack:hover {
+  background: var(--brand); color: #fff; border-color: var(--brand);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0,0,0,.18);
 }
 
-.card.info a:hover {
-  text-decoration: underline;
-  color: var(--brand);
+/* Dark mode kontras */
+:root[data-theme="dark"] .stack {
+  background: #1f2a44; border-color: #334155;
+  box-shadow: 0 2px 6px rgba(0,0,0,.35);
 }
+:root[data-theme="dark"] .stack:hover {
+  background: #6366f1; color: #fff; border-color: #6366f1;
+  box-shadow: 0 8px 20px rgba(99,102,241,.35);
+}
+
+/* (Opsional) teks tebal di dalam stack jika pakai <b> */
+.stack b { font-size: 1rem; font-weight: 700; color: inherit; letter-spacing: .3px; }
+:root[data-theme="dark"] .stack b { text-shadow: 0 0 6px rgba(255,255,255,.08); }
 
 /* ========== PROJECT GRID ========== */
 .grid {
@@ -234,54 +173,24 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 10px;
 }
-
 .project {
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
   padding: 10px;
   background: #fff0;
 }
-
-.p-head {
-  display: flex;
-  justify-content: space-between;
-  gap: 8px;
-}
-
-.p-title {
-  font-weight: 700;
-  color: var(--text);
-  text-decoration: none;
-  font-size: .95rem;
-}
-
-.p-year {
-  color: var(--muted);
-  font-size: .85rem;
-}
-
-.p-desc {
-  color: var(--muted);
-  font-size: .9rem;
-  margin: 4px 0 8px;
-}
+.p-head { display: flex; justify-content: space-between; gap: 8px; }
+.p-title { font-weight: 700; color: var(--text); text-decoration: none; font-size: .95rem; }
+.p-year { color: var(--muted); font-size: .85rem; }
+.p-desc { color: var(--muted); font-size: .9rem; margin: 4px 0 8px; }
 
 .p-meta {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  font-size: .85rem;
-  color: var(--muted);
+  display: flex; gap: 10px; align-items: center; font-size: .85rem; color: var(--muted);
 }
-
 .lang {
   margin-left: auto;
-  background: #e9efff;
-  border: 1px solid var(--border);
-  padding: 2px 8px;
-  border-radius: 999px;
-  color: #1f2937;
-  font-size: .78rem;
+  background: #e9efff; border: 1px solid var(--border);
+  padding: 2px 8px; border-radius: 999px; color: #1f2937; font-size: .78rem;
 }
 
 /* ========== PUBLICATION GRID ========== */
@@ -290,58 +199,26 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 10px;
 }
-
 .pub {
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
   padding: 10px;
 }
-
-.pub h4 {
-  font-size: .95rem;
-  margin: 0 0 4px 0;
-}
-
-.pub .meta {
-  font-size: .85rem;
-  color: var(--muted);
-}
+.pub h4 { font-size: .95rem; margin: 0 0 4px 0; }
+.pub .meta { font-size: .85rem; color: var(--muted); }
 
 /* ========== STATS & CONTACT ========== */
-.stats {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.stats img {
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  max-width: 100%;
-}
+.stats { display: flex; flex-wrap: wrap; gap: 10px; }
+.stats img { border: 1px solid var(--border); border-radius: 12px; max-width: 100%; }
 
 .contact {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  list-style: none; margin: 0; padding: 0;
+  display: flex; flex-direction: column; gap: 8px;
 }
-
-.contact a {
-  color: var(--text);
-  text-decoration: none;
-}
-
-.contact i {
-  width: 18px;
-}
+.contact a { color: var(--text); text-decoration: none; }
+.contact i { width: 18px; }
 
 /* ========== RESPONSIVE ========== */
 @media (max-width: 1020px) {
-  .layout {
-    grid-template-columns: 1fr;
-  }
+  .layout { grid-template-columns: 1fr; }
 }
-
