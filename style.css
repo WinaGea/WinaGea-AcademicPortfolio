@@ -319,6 +319,23 @@ body {
   border-radius: 12px;
 }
 
+/* >>> Modern Clean GitHub Stats (tambahan) */
+.clean-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  align-items: stretch;
+}
+.clean-stats img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -333,4 +350,7 @@ body {
 /* ========== Responsive ========== */
 @media (max-width: 1020px) {
   .layout { grid-template-columns: 1fr; }
+}
+@media (max-width: 700px) {
+  .clean-stats { grid-template-columns: 1fr; }
 }
