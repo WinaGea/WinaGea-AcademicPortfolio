@@ -13,7 +13,7 @@
   <a href="https://github.com/WinaGea?tab=followers">
     <img src="https://img.shields.io/github/followers/WinaGea?label=Follow&style=social" alt="GitHub Followers">
   </a>
-  <a href="www.linkedin.com/in/wina-sorta-maria-gea-655523307">
+  <a href="https://www.linkedin.com/in/wina-sorta-maria-gea-655523307">
     <img src="https://img.shields.io/badge/LinkedIn-winagea-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="mailto:winagea22@gmail.com">
