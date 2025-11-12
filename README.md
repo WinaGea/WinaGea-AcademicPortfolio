@@ -46,20 +46,40 @@ Repositori ini berfungsi sebagai **portofolio akademik**, tempat saya mendokumen
 | Proyek | Deskripsi Singkat | Tahun |
 |--------|------------------|--------|
 | [**MySQL Database Project**](https://github.com/WinaGea/mysql-Database-Project) | Model basis data relasional 3NF dan implementasi SQL query untuk sistem sederhana. | 2024 |
-| [**Daspro Shop Management System**](https://github.com/WinaGea/daspro-shop-management-system) | Aplikasi manajemen toko berbasis C dengan konsep modular dan file handling. | 2024 |
+| [**Daspro Shop Management System**](https://github.com/WinaGea/daspro-shop-management-system) | Aplikasi manajemen toko berbasis C dengan konsep modular dan file handling. | 2023 |
 | [**Automatic Hand Dryer System**](https://github.com/WinaGea/Automatic-Hand-Dryer) | Sistem pengering tangan otomatis berbasis sensor gerak (C). | 2024 |
-| [**Project Interface Design – Air Quality Monitor**](https://github.com/WinaGea/Project-Interface-Design-AirQuality) | Desain casing perangkat IoT menggunakan SolidWorks, dicetak 3D dengan bahan PLA+. | 2025 |
-| [**Website Medan City (PSW)**](https://github.com/WinaGea/website-medan-city-psw) | Website informatif tentang Kota Medan berbasis WordPress & PHP. | 2024 |
+| [**Project Interface Design – Air Quality Monitor**](https://github.com/WinaGea/Project-Interface-Design-AirQuality) | Desain casing perangkat IoT menggunakan SolidWorks, dicetak 3D dengan bahan PLA+. | 2024 |
+| [**Website Medan City (PSW)**](https://github.com/WinaGea/website-medan-city-psw) | Website informatif tentang Kota Medan berbasis WordPress & PHP. | 2023 |
 | [**Genshin Impact Character API**](https://github.com/WinaGea/Genshin-Impact-Character-API) | Aplikasi web REST API untuk menampilkan data karakter Genshin Impact. | 2024 |
 
 ---
-
 ## 🏅 Sertifikat & Pelatihan
-- Google Cloud Career Practitioner 2024 — *Cloud Computing Fundamentals*  
-- Huawei ICT Competition 2025 — *Cloud Track*  
-- Cisco Networking Essentials — *Basic Networking*  
-- SolidWorks Design Workshop 2025 — *Product Interface Design*  
-- IoT & Embedded System Workshop — *ESP32 & MQTT Basics*  
+Berikut beberapa pelatihan dan sertifikasi yang saya ikuti selama studi dan pengembangan diri:
+
+| 🎓 Sertifikasi / Pelatihan | 📅 Tahun | 🏢 Penyelenggara |
+|-----------------------------|-----------|------------------|
+| ☁️ **Huawei HCIA — Cloud Computing V5.5 Course** | 2025 | Huawei |
+| 🌐 **Huawei HCIA — Datacom V1.0 Course** | 2025 | Huawei |
+| 🔒 **Huawei HCIA — Security V4.0 Course** | 2025 | Huawei |
+| 💾 **Huawei HCIA — Storage V5.0 Course** | 2025 | Huawei |
+| 🤖 **Introduction to IoT** | 2025 | Cisco Networking Academy |
+| ⚙️ **Introduction to DevOps Tools** | 2025 | Cisco Networking Academy |
+| ☁️ **Google Cloud Career Practitioner — Cloud Computing Fundamentals** | 2024 | Google |
+| 🧠 **Huawei ICT Competition — Cloud Track** | 2025 | Huawei |
+| 🧩 **Cisco Networking Essentials — Basic Networking** | 2024 | Cisco |
+| 🧱 **SolidWorks Design Workshop — Product Interface Design** | 2025 | IT Del Workshop |
+| 🔧 **IoT & Embedded System Workshop — ESP32 & MQTT Basics** | 2025 | IT Del Workshop |
+| 🕵️‍♀️ **Ethical Hacker Update — Cybersecurity Workshop** | 2025 | Independent Workshop |
+
+<p align="center">
+  
+![Huawei Badge](https://img.shields.io/badge/Huawei-Academy-red?logo=huawei&logoColor=white)
+![Cisco Badge](https://img.shields.io/badge/Cisco-Networking%20Academy-1BA0D7?logo=cisco&logoColor=white)
+![Google Cloud Badge](https://img.shields.io/badge/Google%20Cloud-Certified-4285F4?logo=googlecloud&logoColor=white)
+![SolidWorks Badge](https://img.shields.io/badge/SolidWorks-Workshop-orange?logo=dassaultsystemes&logoColor=white)
+![IoT Badge](https://img.shields.io/badge/IoT-Embedded%20Systems-4CAF50?logo=arduino&logoColor=white)
+
+</p>
 
 ---
 
