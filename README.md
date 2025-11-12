@@ -69,10 +69,6 @@ Berikut beberapa pelatihan dan sertifikasi yang saya ikuti selama studi dan peng
 | 💻 **Front-End Development — MySkill** | 2025 | MySkill |
 | 🌍 **Internet Introduction — MySkill** | 2025 | MySkill |
 | 🔌 **API Introduction — MySkill** | 2025 | MySkill |
-| ☁️ **Google Cloud Career Practitioner — Cloud Computing Fundamentals** | 2024 | Google |
-| 🧩 **Cisco Networking Essentials — Basic Networking** | 2024 | Cisco |
-| 🧱 **SolidWorks Design Workshop — Product Interface Design** | 2025 | IT Del Workshop |
-| 🔧 **IoT & Embedded System Workshop — ESP32 & MQTT Basics** | 2025 | IT Del Workshop |
 
 </p>
 
