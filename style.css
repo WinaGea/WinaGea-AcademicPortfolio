@@ -165,24 +165,27 @@ body {
 
 /* ========== TEXTS ========== */
 .section-title {
-  font-size: .95rem;
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--text);
+  text-transform: none;
+  margin-bottom: 10px;
+}
+
+/* Isi Tech Stack lebih menonjol */
+.stack b {
+  font-size: 1rem;
   font-weight: 700;
-  margin-bottom: 6px;
+  color: var(--text);
+  letter-spacing: 0.3px;
 }
 
-.tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
+/* Khusus mode dark: teks Tech Stack lebih terang dan sedikit glow */
+:root[data-theme="dark"] .stack b {
+  color: #f9fafb; /* hampir putih */
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.08);
 }
 
-.tag {
-  background: #eef2ff;
-  padding: 4px 10px;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  font-size: .75rem;
-}
 
 /* ========== INFO LIST ========== */
 .info .list {
@@ -341,3 +344,4 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
