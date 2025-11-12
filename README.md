@@ -1,6 +1,6 @@
-<!-- ============================= -->
-<!--  Wina Sorta Maria Gea - Academic Portfolio -->
-<!-- ============================= -->
+<!-- ============================================== -->
+<!--  Wina Sorta Maria Gea - GitHub Academic Portfolio -->
+<!-- ============================================== -->
 
 <h1 align="center">🎓 Wina Sorta Maria Gea — Academic Portfolio</h1>
 
@@ -23,40 +23,48 @@
 
 ---
 
-## 📖 Tentang Repositori Ini
+## 📘 Tentang Repositori Ini
 Halo! Saya **Wina Sorta Maria Gea**, mahasiswa DIII Teknologi Komputer di **Institut Teknologi Del**.  
-Repositori ini merupakan **portofolio akademik** yang berisi kumpulan proyek, latihan, dan eksperimen teknologi selama masa perkuliahan.
+Repositori ini berfungsi sebagai **portofolio akademik**, tempat saya mendokumentasikan proyek, eksperimen, dan hasil pembelajaran selama masa studi.
 
-🎯 Tujuannya adalah untuk mendokumentasikan perjalanan belajar saya di bidang teknologi komputer, mulai dari:
-- Pengembangan sistem berbasis **IoT**
-- Desain dan perakitan **produk interaktif**
-- Implementasi **database & web project**
-- Eksperimen **software dan keamanan jaringan**
+🧩 Isinya mencakup:
+- Proyek sistem berbasis **IoT** dan sensor  
+- Desain casing perangkat menggunakan **SolidWorks**  
+- Implementasi **database dan web project**  
+- Eksperimen pemrograman dan pengujian perangkat  
 
-> 🪴 Untuk **portofolio profesional dan resmi**, silakan kunjungi:  
-> 🔗 [**winagea.my.id**](https://winagea.my.id)
+> 💡 **Portofolio Akademik ini dapat diakses langsung di GitHub Pages:**  
+> 🔗 [**https://winagea.github.io/WinaGea-AcademicPortfolio/**](https://winagea.github.io/WinaGea-AcademicPortfolio/)
+
+> 🌐 **Untuk Portofolio Resmi & Profesional Saya, silakan kunjungi:**  
+> 💼 [**https://winagea.my.id**](https://winagea.my.id)
 
 ---
 
 ## 🚀 Proyek Akademik
 
-| Proyek | Deskripsi | Bidang |
-|--------|------------|--------|
-| **IoT-Based Air Quality Monitoring System** | Sistem pemantauan kualitas udara menggunakan ESP32, DHT22, dan SGP30. | IoT / Embedded |
-| **Automatic Hand Dryer System** | Pengering tangan otomatis dengan sensor gerak berbasis mikrokontroler. | Embedded |
-| **3D Interface Design — IoT Device Casing** | Desain casing perangkat IoT di SolidWorks dan dicetak 3D (PLA+). | Desain Produk |
-| **MySQL Database Project** | Model database relasional 3NF dengan implementasi SQL query. | Database |
-| **Website Medan City (PSW)** | Website informatif tentang Kota Medan berbasis PHP & WordPress. | Web |
-| **Genshin Impact Character API** | Web dinamis REST API untuk menampilkan data karakter. | Web / API |
+| Proyek | Deskripsi Singkat | Tahun |
+|--------|------------------|--------|
+| [**MySQL Database Project**](https://github.com/WinaGea/mysql-Database-Project) | Model basis data relasional 3NF dan implementasi SQL query untuk sistem sederhana. | 2024 |
+| [**Daspro Shop Management System**](https://github.com/WinaGea/daspro-shop-management-system) | Aplikasi manajemen toko berbasis C dengan konsep modular dan file handling. | 2024 |
+| [**Automatic Hand Dryer System**](https://github.com/WinaGea/Automatic-Hand-Dryer) | Sistem pengering tangan otomatis berbasis sensor gerak (C). | 2024 |
+| [**Project Interface Design – Air Quality Monitor**](https://github.com/WinaGea/Project-Interface-Design-AirQuality) | Desain casing perangkat IoT menggunakan SolidWorks, dicetak 3D dengan bahan PLA+. | 2025 |
+| [**Website Medan City (PSW)**](https://github.com/WinaGea/website-medan-city-psw) | Website informatif tentang Kota Medan berbasis WordPress & PHP. | 2024 |
+| [**Genshin Impact Character API**](https://github.com/WinaGea/Genshin-Impact-Character-API) | Aplikasi web REST API untuk menampilkan data karakter Genshin Impact. | 2024 |
 
 ---
 
 ## 🏅 Sertifikat & Pelatihan
-- Google Cloud Career Practitioner 2024 — Cloud Computing Fundamentals  
-- Huawei ICT Competition 2025 — Cloud Track  
-- Cisco Networking Essentials — Basic Networking  
-- SolidWorks Design Workshop 2025 — Product Interface Design  
-- IoT & Embedded System Workshop — ESP32 & MQTT Basics  
+- Google Cloud Career Practitioner 2024 — *Cloud Computing Fundamentals*  
+- Huawei ICT Competition 2025 — *Cloud Track*  
+- Cisco Networking Essentials — *Basic Networking*  
+- SolidWorks Design Workshop 2025 — *Product Interface Design*  
+- IoT & Embedded System Workshop — *ESP32 & MQTT Basics*  
+
+---
+
+## 🧰 Skill & Tools
+`C` `Arduino` `ESP32` `SolidWorks` `MySQL` `PHP` `WordPress` `HTML` `CSS` `Python` `Git`
 
 ---
 
@@ -68,11 +76,6 @@ Repositori ini merupakan **portofolio akademik** yang berisi kumpulan proyek, la
 <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WinaGea&layout=compact&theme=transparent" alt="Top Languages" />
 
 </div>
-
----
-
-## 🧰 Tools & Bahasa Pemrograman
-`C` `Arduino` `ESP32` `SolidWorks` `MySQL` `PHP` `WordPress` `HTML` `CSS` `Python` `Git`
 
 ---
 
