@@ -44,7 +44,13 @@ body {
   color: var(--text);
   line-height: 1.6;
 }
-.page { max-width: 1200px; margin: 0 auto; padding: var(--space-3) var(--space-4) var(--space-5); }
+
+/* ===== PAGE WIDTH ===== */
+/* Default: web layout, lebar proporsional */
+.page { max-width: 980px; margin: 0 auto; padding: var(--space-3) var(--space-4) var(--space-5); }
+
+/* CV/Potrait Mode — aktifkan dengan menambahkan attribute data-layout="cv" pada <html> atau documentElement */
+:root[data-layout="cv"] .page { max-width: 820px; background: var(--card); box-shadow: var(--shadow-md); border: 1px solid var(--border); }
 
 /* ===== TOPBAR ===== */
 .topbar { display: flex; justify-content: flex-start; margin-bottom: var(--space-3); }
@@ -59,8 +65,11 @@ body {
 .theme-box select { border: none; background: transparent; color: var(--text); }
 
 /* ===== LAYOUT ===== */
-.layout { display: grid; grid-template-columns: 320px 1fr; gap: var(--space-3); }
+.layout { display: grid; grid-template-columns: 300px 1fr; gap: var(--space-3); }
 @media (max-width: 1020px) { .layout { grid-template-columns: 1fr; } }
+
+/* CV/Potrait: paksa satu kolom agar terlihat seperti resume A4 */
+:root[data-layout="cv"] .layout { grid-template-columns: 1fr; }
 
 /* ===== CARDS ===== */
 .card {
@@ -113,6 +122,7 @@ body {
 
 /* ===== TECH STACK ===== */
 .stack-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: var(--space-2); margin-top: var(--space-2); }
+:root[data-layout="cv"] .stack-grid { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
 .stack {
   background: var(--card); border: 1px solid var(--border); border-radius: var(--radius-md);
   padding: 10px; text-align: center; font-weight: 700; color: var(--text); font-size: .95rem;
@@ -127,6 +137,7 @@ body {
 
 /* ===== CONTENT GRIDS ===== */
 .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: var(--space-2); }
+:root[data-layout="cv"] .grid { grid-template-columns: 1fr; }
 
 .project {
   border: 1px solid var(--border); border-radius: var(--radius-md); padding: var(--space-3);
@@ -145,6 +156,7 @@ body {
 
 /* ===== CERTIFICATES / PUBLICATIONS ===== */
 .pub-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: var(--space-2); }
+:root[data-layout="cv"] .pub-grid { grid-template-columns: 1fr 1fr; }
 .pub { border: 1px solid var(--border); border-radius: var(--radius-md); padding: var(--space-3); display: flex; flex-direction: column; justify-content: space-between; min-height: 90px; }
 .pub h4 { font-size: .98rem; margin: 0 0 4px 0; }
 .pub .meta { font-size: .86rem; color: var(--muted); margin: 0; }
@@ -152,12 +164,23 @@ body {
 /* ===== STATS & CONTACT ===== */
 .stats { display: grid; grid-template-columns: 1fr; gap: var(--space-2); }
 @media (min-width: 680px) { .stats { grid-template-columns: 1fr 1fr; } }
+:root[data-layout="cv"] .stats { grid-template-columns: 1fr; }
 .stats img { border: 1px solid var(--border); border-radius: 12px; width: 100%; height: auto; }
 
 .contact { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
 .contact a { color: var(--text); text-decoration: none; }
 .contact a:hover { color: var(--brand); text-decoration: underline; }
 .contact i { width: 18px; }
+
+/* ===== PRINT (A4 Portrait) ===== */
+@media print {
+  @page { size: A4 portrait; margin: 12mm; }
+  :root { --bg: #ffffff; }
+  body { background: #ffffff !important; }
+  .topbar { display: none !important; }
+  .page { max-width: 100% !important; padding: 0 !important; }
+  .card { box-shadow: none !important; }
+}
 
 /* ===== UTILITIES ===== */
 .hide { display: none !important; }
