@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wina Gea — Academic Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER / THEME -->
+  <header class="topbar">
+    <div class="theme-box">
+      <span>Theme</span>
+      <select id="themeSelect" aria-label="Theme">
+        <option value="default" selected>Default</option>
+        <option value="dark">Dark</option>
+        <option value="light">Light</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="layout">
+    <!-- LEFT COLUMN -->
+    <aside class="sidebar">
+      <!-- Profile -->
+      <section class="card profile">
+        <div class="avatar"><img src="https://avatars.githubusercontent.com/WinaGea" alt="Wina Gea"></div>
+        <h1 class="name">Wina Sorta Maria Gea</h1>
+        <p class="role">Computer Technology Student — Institut Teknologi Del</p>
+        <p class="subs">IoT • Interface/Product Design • Database • Web</p>
+
+        <div class="chips">
+          <a class="chip" href="https://github.com/WinaGea" target="_blank"><i class="fa-brands fa-github"></i> Follow</a>
+          <a class="chip" href="https://www.linkedin.com/in/winagea" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+          <a class="chip" href="mailto:winagea22@gmail.com"><i class="fa-solid fa-envelope"></i> winagea22@gmail.com</a>
+        </div>
+
+        <a class="btn" href="#" title="Tambahkan file PDF CV lalu arahkan link ini">Download Resume</a>
+      </section>
+
+      <!-- Info -->
+      <section class="card info">
+        <ul class="list">
+          <li><span><i class="fa-solid fa-location-dot"></i> Based in</span><b>Indonesia</b></li>
+          <li><span><i class="fa-brands fa-github"></i> GitHub</span><a href="https://github.com/WinaGea" target="_blank">WinaGea</a></li>
+          <li><span><i class="fa-brands fa-linkedin"></i> LinkedIn</span><a href="https://www.linkedin.com/in/winagea" target="_blank">winagea</a></li>
+          <li><span><i class="fa-solid fa-envelope"></i> Email</span><a href="mailto:winagea22@gmail.com">winagea22@gmail.com</a></li>
+        </ul>
+      </section>
+
+      <!-- Tech Stack -->
+      <section class="card">
+        <h3 class="section-title">Tech Stack</h3>
+        <div class="tags">
+          <span class="tag">IoT</span>
+          <span class="tag">ESP32</span>
+          <span class="tag">C</span>
+          <span class="tag">SolidWorks</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">PHP</span>
+          <span class="tag">WordPress</span>
+          <span class="tag">Python</span>
+          <span class="tag">Docker</span>
+          <span class="tag">Kubernetes</span>
+        </div>
+      </section>
+
+      <!-- Experience (opsional, bisa kamu edit) -->
+      <section class="card">
+        <h3 class="section-title">Experience</h3>
+        <div class="exp">
+          <div>
+            <div class="exp-title">Asisten/Lab & Proyek Kampus</div>
+            <div class="exp-meta">Institut Teknologi Del • 2024–Sekarang</div>
+          </div>
+        </div>
+      </section>
+    </aside>
+
+    <!-- RIGHT COLUMN -->
+    <section class="content">
+
+      <!-- About -->
+      <section class="card wide">
+        <h3 class="block-title"><i class="fa-regular fa-user"></i> Tentang Saya</h3>
+        <p>Halo! Saya <b>Wina Sorta Maria Gea</b>, mahasiswa DIII Teknologi Komputer di Institut Teknologi Del. Saya senang menggabungkan
+          hardware, software, dan desain untuk membuat solusi yang fungsional sekaligus estetik. Fokus saya di bidang:
+          <b>Internet of Things (IoT), integrasi sistem berbasis cloud,</b> dan <b>software development</b>.</p>
+      </section>
+
+      <!-- Projects -->
+      <section class="card wide">
+        <div class="card-header">
+          <h3 class="block-title"><i class="fa-brands fa-github"></i> GitHub Projects</h3>
+          <p class="subtext">Beberapa proyek unggulan.</p>
+        </div>
+
+        <div class="grid">
+          <!-- 1 -->
+          <article class="project">
+            <div class="p-head">
+              <a class="p-title" href="#" target="_blank">IoT-Based Air Quality Monitoring System</a>
+              <span class="p-year">2025</span>
+            </div>
+            <p class="p-desc">Sistem IoT untuk memantau kualitas udara (ESP32, DHT22, SGP30, Blynk, LCD I2C).</p>
+            <div class="p-meta">
+              <span><i class="fa-regular fa-star"></i> 0</span>
+              <span><i class="fa-solid fa-code-branch"></i> 0</span>
+              <span class="lang">C/Arduino</span>
+            </div>
+          </article>
+
+          <!-- 2 -->
+          <article class="project">
+            <div class="p-head">
+              <a class="p-title" href="#" target="_blank">3D Interface Design — IoT Device Casing</a>
+              <span class="p-year">2025</span>
+            </div>
+            <p class="p-desc">Desain casing perangkat IoT menggunakan SolidWorks, cetak 3D PLA+.</p>
+            <div class="p-meta">
+              <span><i class="fa-regular fa-star"></i> 0</span>
+              <span><i class="fa-solid fa-code-branch"></i> 0</span>
+              <span class="lang">CAD</span>
+            </div>
+          </article>
+
+          <!-- 3 -->
+          <article class="project">
+            <div class="p-head">
+              <a class="p-title" href="#" target="_blank">MySQL Database Project</a>
+              <span class="p-year">2024</span>
+            </div>
+            <p class="p-desc">Model basis data relasional: normalisasi 3NF & query SQL lengkap.</p>
+            <div class="p-meta">
+              <span><i class="fa-regular fa-star"></i> 0</span>
+              <span><i class="fa-solid fa-code-branch"></i> 0</span>
+              <span class="lang">SQL</span>
+            </div>
+          </article>
+
+          <!-- 4 -->
+          <article class="project">
+            <div class="p-head">
+              <a class="p-title" href="#" target="_blank">Automatic Hand Dryer System</a>
+              <span class="p-year">2024</span>
+            </div>
+            <p class="p-desc">Sistem otomatis pengering tangan berbasis sensor gerak (C).</p>
+            <div class="p-meta">
+              <span><i class="fa-regular fa-star"></i> 0</span>
+              <span><i class="fa-solid fa-code-branch"></i> 0</span>
+              <span class="lang">C</span>
+            </div>
+          </article>
+
+          <!-- 5 -->
+          <article class="project">
+            <div class="p-head">
+              <a class="p-title" href="#" target="_blank">Website Medan City (PSW)</a>
+              <span class="p-year">2024</span>
+            </div>
+            <p class="p-desc">Website responsif tentang Kota Medan (WordPress & PHP).</p>
+            <div class="p-meta">
+              <span><i class="fa-regular fa-star"></i> 0</span>
+              <span><i class="fa-solid fa-code-branch"></i> 0</span>
+              <span class="lang">PHP/WordPress</span>
+            </div>
+          </article>
+
+          <!-- 6 -->
+          <article class="project">
+            <div class="p-head">
+              <a class="p-title" href="#" target="_blank">Genshin Impact Character API</a>
+              <span class="p-year">2024</span>
+            </div>
+            <p class="p-desc">Aplikasi web dinamis berbasis REST API untuk menampilkan data karakter.</p>
+            <div class="p-meta">
+              <span><i class="fa-regular fa-star"></i> 0</span>
+              <span><i class="fa-solid fa-code-branch"></i> 0</span>
+              <span class="lang">JS</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Publications / Certificates -->
+      <section class="card wide">
+        <div class="card-header">
+          <h3 class="block-title"><i class="fa-solid fa-book"></i> Publications & Certificates</h3>
+          <p class="subtext">Ringkas dari sertifikat & tulisan.</p>
+        </div>
+        <div class="pub-grid">
+          <article class="pub">
+            <h4>Google Cloud Career Practitioner 2024 — Cloud Computing Fundamentals</h4>
+            <p class="meta">Sertifikat</p>
+          </article>
+          <article class="pub">
+            <h4>Huawei ICT Competition 2025 — Cloud Track</h4>
+            <p class="meta">Sertifikat</p>
+          </article>
+          <article class="pub">
+            <h4>Cisco Networking Essentials — Basic Networking</h4>
+            <p class="meta">Sertifikat</p>
+          </article>
+          <article class="pub">
+            <h4>SolidWorks Design Workshop 2025 — Product Interface Design</h4>
+            <p class="meta">Sertifikat</p>
+          </article>
+          <article class="pub">
+            <h4>IoT & Embedded System Workshop — ESP32 & MQTT Basics</h4>
+            <p class="meta">Sertifikat</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- GitHub Stats -->
+      <section class="card wide">
+        <h3 class="block-title"><i class="fa-regular fa-chart-bar"></i> Statistik GitHub</h3>
+        <div class="stats">
+          <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=WinaGea&show_icons=true&theme=default&hide_rank=true" />
+          <img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WinaGea&layout=compact&theme=default" />
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="card wide">
+        <h3 class="block-title"><i class="fa-regular fa-handshake"></i> Kontak</h3>
+        <ul class="contact">
+          <li><i class="fa-solid fa-envelope"></i> <a href="mailto:winagea22@gmail.com">winagea22@gmail.com</a></li>
+          <li><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/winagea" target="_blank">linkedin.com/in/winagea</a></li>
+          <li><i class="fa-brands fa-github"></i> <a href="https://github.com/WinaGea" target="_blank">github.com/WinaGea</a></li>
+        </ul>
+      </section>
+
+    </section>
+  </main>
+</div>
+
+<script>
+  // theme switcher sederhana
+  const sel = document.getElementById('themeSelect');
+  const stored = localStorage.getItem('theme');
+  if (stored) { document.documentElement.dataset.theme = stored; sel.value = stored; }
+  sel.addEventListener('change', () => {
+    document.documentElement.dataset.theme = sel.value;
+    localStorage.setItem('theme', sel.value);
+  });
+</script>
+</body>
+</html>
