@@ -2,11 +2,11 @@
 <!--  Wina Sorta Maria Gea - GitHub Academic Portfolio -->
 <!-- ============================================== -->
 
-<h1 align="center">🎓 Wina Sorta Maria Gea — Academic Portfolio</h1>
-
+<h1 align="center">Wina Sorta Maria Gea</h1>
+<h2 align="center">🎓 Academic Portfolio</h2>
 <p align="center">
   <em>Computer Technology Student — Institut Teknologi Del</em><br>
-  <sub>📘 Portofolio Akademik • Dokumentasi Proyek • Pembelajaran Teknologi</sub>
+  <sub>📘Academic Portfolio • Project Documentation • Technology Learning</sub>
 </p>
 
 <p align="center">
@@ -23,41 +23,42 @@
 
 ---
 
-## 📘 Tentang Repositori Ini
-Halo! Saya **Wina Sorta Maria Gea**, mahasiswa DIII Teknologi Komputer di **Institut Teknologi Del**.  
-Repositori ini berfungsi sebagai **portofolio akademik**, tempat saya mendokumentasikan proyek, eksperimen, dan hasil pembelajaran selama masa studi.
+## 📘 About This Repository
+Hello! I am **Wina Sorta Maria Gea**, a DIII Computer Technology student at **Institut Teknologi Del**.  
+This repository serves as an **academic portfolio**, where I document projects, experiments and learning outcomes throughout the study period.
 
-🧩 Isinya mencakup:
-- Proyek sistem berbasis **IoT** dan sensor  
-- Desain casing perangkat menggunakan **SolidWorks**  
-- Implementasi **database dan web project**  
-- Eksperimen pemrograman dan pengujian perangkat  
+🧩 The contents include:
+- **IoT** and sensor based systems projects  
+- Device casing design using **SolidWorks**  
+- Implementation of **database and web projects**  
+- Programming experiments and device testing  
 
-> 💡 **Portofolio Akademik ini dapat diakses langsung di GitHub Pages:**  
+> 💡 **This Academic Portfolio can be accessed directly on the GitHub Page:**
 > 🔗 [**https://winagea.github.io/WinaGea-AcademicPortfolio/**](https://winagea.github.io/WinaGea-AcademicPortfolio/)
 
-> 🌐 **Untuk Portofolio Resmi & Profesional Saya, silakan kunjungi:**  
+> 🌐 **For My Official & Professional Portfolio, please visit:**
 > 💼 [**https://winagea.my.id**](https://winagea.my.id)
 
 ---
 
-## 🚀 Proyek Akademik
+## 🚀 Academic Projects
 
-| Proyek | Deskripsi Singkat | Tahun |
+| Project | Short Description | Year |
 |--------|------------------|--------|
-| [**MySQL Database Project**](https://github.com/WinaGea/mysql-Database-Project) | Model basis data relasional 3NF dan implementasi SQL query untuk sistem sederhana. | 2024 |
-| [**Daspro Shop Management System**](https://github.com/WinaGea/daspro-shop-management-system) | Aplikasi manajemen toko berbasis C dengan konsep modular dan file handling. | 2023 |
-| [**Automatic Hand Dryer System**](https://github.com/WinaGea/Automatic-Hand-Dryer) | Sistem pengering tangan otomatis berbasis sensor gerak (C). | 2024 |
-| [**Project Interface Design – Air Quality Monitor**](https://github.com/WinaGea/Project-Interface-Design-AirQuality) | Desain casing perangkat IoT menggunakan SolidWorks, dicetak 3D dengan bahan PLA+. | 2024 |
-| [**Website Medan City (PSW)**](https://github.com/WinaGea/website-medan-city-psw) | Website informatif tentang Kota Medan berbasis WordPress & PHP. | 2023 |
-| [**Genshin Impact Character API**](https://github.com/WinaGea/Genshin-Impact-Character-API) | Aplikasi web REST API untuk menampilkan data karakter Genshin Impact. | 2024 |
+| [**MySQL Database Project**](https://github.com/WinaGea/mysql-Database-Project) | 3NF relational database model and SQL query implementation for simple systems. | 2024 |
+| [**Daspro Shop Management System**](https://github.com/WinaGea/daspro-shop-management-system) | C-based store management application with modular concept and file handling. | 2023 |
+| [**Automatic Hand Dryer System**](https://github.com/WinaGea/Automatic-Hand-Dryer) | Motion sensor based automatic hand drying system (C). | 2024 |
+| [**Project Interface Design – Air Quality Monitor**](https://github.com/WinaGea/Project-Interface-Design-AirQuality) | IoT device casing design using SolidWorks, 3D printed with PLA+ material. | 2024 |
+| [**Medan City Website (PSW)**](https://github.com/WinaGea/website-medan-city-psw) | Informative website about Medan City based on WordPress & PHP. | 2023 |
+| [**Genshin Impact Character API**](https://github.com/WinaGea/Genshin-Impact-Character-API) | REST API web application to display Genshin Impact character data. | 2024 |
 
 ---
-## 🏅 Sertifikat & Pelatihan
-Berikut beberapa pelatihan dan sertifikasi yang saya ikuti selama studi dan pengembangan diri:
 
-| 🎓 Sertifikasi / Pelatihan | 📅 Tahun | 🏢 Penyelenggara |
-|-----------------------------|-----------|------------------|
+## 🏅 Certificates & Training
+Here are some of the training and certifications that I took during my studies and self-development:
+
+| 🎓 Certification / Training | 📅 Year | 🏢 Organizer |
+|--------------------------|-----------|---------|
 | ☁️ **Huawei HCIA — Cloud Computing V5.5 Course** | 2025 | Huawei |
 | 🌐 **Huawei HCIA — Datacom V1.0 Course** | 2025 | Huawei |
 | 🔒 **Huawei HCIA — Security V4.0 Course** | 2025 | Huawei |
@@ -65,10 +66,10 @@ Berikut beberapa pelatihan dan sertifikasi yang saya ikuti selama studi dan peng
 | 🤖 **Introduction to IoT — Cisco Networking Academy** | 2025 | Cisco |
 | ⚙️ **Introduction to DevOps Tools — Simplilearn** | 2025 | Simplilearn |
 | 🧩 **Ethical Hacker Update 2025 — Cisco Networking Academy** | 2025 | Cisco |
-| 🧠 **Back-End Development — MySkill** | 2025 | MySkill |
-| 💻 **Front-End Development — MySkill** | 2025 | MySkill |
-| 🌍 **Internet Introduction — MySkill** | 2025 | MySkill |
-| 🔌 **API Introduction — MySkill** | 2025 | MySkill |
+| 🧠 **Back-End Development — MySkill** | 2025 | MySkills |
+| 💻 **Front-End Development — MySkill** | 2025 | MySkills |
+| 🌍 **Internet Introduction — MySkill** | 2025 | MySkills |
+| 🔌 **API Introduction — MySkill** | 2025 | MySkills |
 
 </p>
 
@@ -90,7 +91,7 @@ Berikut beberapa pelatihan dan sertifikasi yang saya ikuti selama studi dan peng
 
 ---
 
-## 📇 Kontak
+## 📇 Contact
 📧 **Email:** [winagea22@gmail.com](mailto:winagea22@gmail.com)  
 🔗 **LinkedIn:** [linkedin.com/in/winagea](https://linkedin.com/in/winagea)  
 💻 **GitHub:** [github.com/WinaGea](https://github.com/WinaGea)
